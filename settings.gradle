@@ -1,1 +1,4 @@
-include ':app'
+
+include ':library_xutils', ':demos', ':myapplication'
+include ':xutils_demo'
+include ':photo'

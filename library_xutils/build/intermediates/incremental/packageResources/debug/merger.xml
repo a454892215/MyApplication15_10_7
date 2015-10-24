@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="H:\android_studio_workspace\MyApplication15_10_7\library_xutils\src\main\res"/><source path="H:\android_studio_workspace\MyApplication15_10_7\library_xutils\build\generated\res\rs\debug"/><source path="H:\android_studio_workspace\MyApplication15_10_7\library_xutils\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="H:\android_studio_workspace\MyApplication15_10_7\library_xutils\src\debug\res"/></dataSet><mergedItems/></merger>

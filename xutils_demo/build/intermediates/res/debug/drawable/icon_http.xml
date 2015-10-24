@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/http_press" android:state_selected="true"></item>
+    <item android:drawable="@drawable/http"/>
+
+</selector><!-- From: file:/H:/android_studio_workspace/MyApplication15_10_7/xutils_demo/src/main/res/drawable/icon_http.xml -->

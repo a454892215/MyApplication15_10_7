@@ -10,7 +10,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/demos" />
+            <option value="$PROJECT_DIR$/library_xutils" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/photo" />
+            <option value="$PROJECT_DIR$/xutils_demo" />
           </set>
         </option>
       </GradleProjectSettings>

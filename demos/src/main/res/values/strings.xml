@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Demos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_popup_window_activity">PopupWindowACtivity</string>
+    <string name="title_activity_value_animator_test">ValueAnimatorTest</string>
+    <string name="title_activity_sale_customer_menu_test">SaleCustomerMenuTest</string>
+</resources>

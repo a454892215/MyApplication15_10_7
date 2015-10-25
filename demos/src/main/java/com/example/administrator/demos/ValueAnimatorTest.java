@@ -23,9 +23,9 @@ public class ValueAnimatorTest extends ActionBarActivity {
          valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
-                int value = (int) animation.getAnimatedValue();
+                /*int value = (int) animation.getAnimatedValue();
                 textView.setHeight(value);
-                textView.setWidth(value);
+                textView.setWidth(value);*/
             }
         });
     }

@@ -70,9 +70,28 @@ public class MainActivity extends ActionBarActivity {
                 head.setLayoutParams(layoutParams);
             }
         });
+
+
+        tv_down_up.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(isClose){
+                    isClose=false;
+                    valueAnimator_close.start();
+
+                }else{
+                    isClose=true;
+                    valueAnimator_open.start();
+                }
+            }
+        });
     }
      boolean isClose=true;
-    public void click(View view) {
+
+
+
+
+  /*  public void click(View view) {
      if(isClose){
          isClose=false;
          valueAnimator_close.start();
@@ -82,7 +101,7 @@ public class MainActivity extends ActionBarActivity {
         valueAnimator_open.start();
      }
 
-    }
+    }*/
 
     @Override
     protected void onResume() {

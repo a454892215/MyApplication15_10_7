@@ -97,7 +97,7 @@
 </LinearLayout>
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="20dp"
+        android:layout_height="30dp"
         android:gravity="center"
         android:background="#cc00ff00"
         android:text="下拉/回收"

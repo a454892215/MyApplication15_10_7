@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.TextView;
 
 
-public class ValueAnimatorTest extends ActionBarActivity {
+public class ValueAnimatorActivity extends ActionBarActivity {
     ValueAnimator valueAnimator;
     private TextView textView;
 
@@ -23,9 +23,9 @@ public class ValueAnimatorTest extends ActionBarActivity {
          valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
-                /*int value = (int) animation.getAnimatedValue();
+                Integer  value = (Integer) animation.getAnimatedValue();
                 textView.setHeight(value);
-                textView.setWidth(value);*/
+                textView.setWidth(value);
             }
         });
     }

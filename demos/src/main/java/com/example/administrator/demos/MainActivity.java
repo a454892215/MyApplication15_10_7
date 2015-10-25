@@ -1,13 +1,10 @@
 package com.example.administrator.demos;
 
-import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Gravity;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -18,7 +15,7 @@ import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity {
     static final String[] names={"ValueAnimatorTest测试","零售终端的可回收菜单测试（上下）"};
-    public static final Class[] activities={ValueAnimatorTest.class,SaleCustomerMenuTest.class};
+    public static final Class[] activities={ValueAnimatorActivity.class,SaleCustomMenuActivity.class};
     private Context context =this;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

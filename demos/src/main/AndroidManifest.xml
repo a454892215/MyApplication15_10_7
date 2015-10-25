@@ -17,11 +17,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ValueAnimatorTest"
+            android:name=".ValueAnimatorActivity"
             android:label="@string/title_activity_value_animator_test" >
         </activity>
         <activity
-            android:name=".SaleCustomerMenuTest"
+            android:name=".SaleCustomMenuActivity"
             android:label="@string/title_activity_sale_customer_menu_test" >
         </activity>
     </application>

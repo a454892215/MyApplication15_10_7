@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyApplication15_10_7.iml" filepath="$PROJECT_DIR$/MyApplication15_10_7.iml" />
       <module fileurl="file://$PROJECT_DIR$/library_xutils/library_xutils.iml" filepath="$PROJECT_DIR$/library_xutils/library_xutils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mydemo151025/mydemo151025.iml" filepath="$PROJECT_DIR$/mydemo151025/mydemo151025.iml" />
       <module fileurl="file://$PROJECT_DIR$/photo/photo.iml" filepath="$PROJECT_DIR$/photo/photo.iml" />
       <module fileurl="file://$PROJECT_DIR$/xutils_demo/xutils_demo.iml" filepath="$PROJECT_DIR$/xutils_demo/xutils_demo.iml" />
     </modules>

@@ -147,7 +147,8 @@ public class MainActivity extends Activity {
 					long arg3) {
 				if (arg2 == Bimp.tempSelectBitmap.size()) {
 					Log.i("ddddddd", "----------");
-					ll_popup.startAnimation(AnimationUtils.loadAnimation(MainActivity.this,R.anim.activity_translate_in));
+					ll_popup.startAnimation(AnimationUtils.loadAnimation(MainActivity.this,R.anim.
+							activity_translate_in));
 					pop.showAtLocation(parentView, Gravity.BOTTOM, 0, 0);
 				} else {
 					Intent intent = new Intent(MainActivity.this,

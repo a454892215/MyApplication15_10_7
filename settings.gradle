@@ -1,4 +1,4 @@
 
-include ':library_xutils'
+include ':library_xutils', ':mydemons'
 include ':xutils_demo'
 include ':photo'

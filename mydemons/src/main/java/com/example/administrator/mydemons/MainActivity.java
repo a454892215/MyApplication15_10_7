@@ -1,25 +1,24 @@
 package com.example.administrator.mydemons;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Gravity;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity implements AdapterView.OnItemClickListener {
     Context context=this;
     private Object[][] items={
-            {"ScrollView下拉刷新",PullToRefreshScrollView.class}
+            {"相册",MyAlbumActivity.class}
     };
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +32,7 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        Toast.makeText(this,"hhhhh",Toast.LENGTH_LONG).show();
         Intent intent =new Intent(this,(Class)items[position][1]);
         startActivity(intent);
     }
@@ -56,10 +56,11 @@ public class MainActivity extends ActionBarActivity implements AdapterView.OnIte
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
             if(convertView==null){
-                convertView= new Button(context);
-                ((Button) convertView).setGravity(Gravity.CENTER);
+                convertView= new TextView(context);
+                ((TextView) convertView).setGravity(Gravity.CENTER);
+                ((TextView) convertView).setTextSize(20);
             }
-            ((Button) convertView).setText((String)items[position][0]);
+            ((TextView) convertView).setText((String)items[position][0]);
 
             return convertView;
         }

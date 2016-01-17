@@ -13,7 +13,6 @@
             <option value="$PROJECT_DIR$/library_xutils" />
             <option value="$PROJECT_DIR$/mydemons" />
             <option value="$PROJECT_DIR$/photo" />
-            <option value="$PROJECT_DIR$/xutils_demo" />
           </set>
         </option>
       </GradleProjectSettings>

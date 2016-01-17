@@ -1,3 +1,2 @@
 
 include ':library_xutils', ':mydemons'
-include ':photo'

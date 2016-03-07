@@ -5,6 +5,8 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.widget.TextView;
+
 import com.example.administrator.mydemons.utils.LogUtils;
 
 
@@ -14,9 +16,11 @@ public class MyAlbumActivity extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        TextView textView=new TextView(this);
+        textView.setText("童奥华");
+        textView.setTextSize(15);
+        setContentView(textView);
         getImages();
-
-
     }
 
     /**
